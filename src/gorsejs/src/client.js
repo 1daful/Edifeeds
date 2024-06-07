@@ -104,4 +104,3 @@ class Gorse {
     }
 }
 export { Gorse };
-//# sourceMappingURL=client.js.map

@@ -103,4 +103,3 @@ export class ListMonk {
         return resData;
     }
 }
-//# sourceMappingURL=Listmonk.js.map

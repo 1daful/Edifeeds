@@ -31,4 +31,3 @@ export class ApiFormat {
     description = '';
     keyword = '';
 }
-//# sourceMappingURL=ApiFormat.js.map

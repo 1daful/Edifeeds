@@ -7,4 +7,3 @@ export class QuoteMedia {
         this.apis.push(this.zenQuotes);
     }
 }
-//# sourceMappingURL=QuoteMedia.js.map

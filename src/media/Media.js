@@ -2,8 +2,8 @@ import { Repository } from '../model/Repository';
 import { QuoteMedia } from './QuoteMedia';
 import { NetworkLocal } from './../api/network';
 import { MediaApi } from "../api/MediaApi.js";
-import { EdiStorage } from "src/api/storage.js";
-import { ApiFormat } from "src/apiReqFormat/ApiFormat.js";
+import { EdiStorage } from "../api/storage.js";
+import { ApiFormat } from "../apiReqFormat/ApiFormat.js";
 import { Axiosi } from "../api/Axiosi";
 import { Unsplash } from "../api/pic/ImageGen";
 import { BookMedia } from './BookMedia';
@@ -114,4 +114,3 @@ export class Media {
         return data.thumbnail;
     }
 }
-//# sourceMappingURL=Media.js.map

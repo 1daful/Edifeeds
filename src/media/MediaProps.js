@@ -21,4 +21,3 @@ export class MediaProps {
         media = obj;
     }
 }
-//# sourceMappingURL=MediaProps.js.map

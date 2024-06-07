@@ -39,4 +39,3 @@ export class Utility {
         return ret;
     }
 }
-//# sourceMappingURL=Utility.js.map

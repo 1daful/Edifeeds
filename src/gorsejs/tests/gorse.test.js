@@ -91,4 +91,3 @@ test("test recommend", async () => {
     });
     expect(recommendedItems).toStrictEqual(["3", "2", "1"]);
 });
-//# sourceMappingURL=gorse.test.js.map

@@ -11,4 +11,3 @@ export class SupertokensAuth {
         });
     }
 }
-//# sourceMappingURL=Supertokens.js.map

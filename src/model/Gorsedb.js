@@ -24,4 +24,3 @@ export class Gorsedb {
         throw new Error("Method not implemented.");
     }
 }
-//# sourceMappingURL=Gorsedb.js.map

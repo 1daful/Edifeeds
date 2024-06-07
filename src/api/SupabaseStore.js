@@ -28,4 +28,3 @@ export class SupabaseStore {
         return file;
     }
 }
-//# sourceMappingURL=SupabaseStore.js.map

@@ -59,4 +59,3 @@ export class zincSearch {
     }
     SearchResult;
 }
-//# sourceMappingURL=ZincSearch.js.map

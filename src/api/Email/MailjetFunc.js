@@ -69,4 +69,3 @@ export class MailjetFunc {
         }
     };
 }
-//# sourceMappingURL=MailjetFunc.js.map

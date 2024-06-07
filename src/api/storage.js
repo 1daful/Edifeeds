@@ -8,4 +8,3 @@ export class EdiStorage {
         this.storage.download(collName, path);
     }
 }
-//# sourceMappingURL=storage.js.map

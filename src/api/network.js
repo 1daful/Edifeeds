@@ -32,4 +32,3 @@ export class NetworkLocal {
         }
     };
 }
-//# sourceMappingURL=network.js.map

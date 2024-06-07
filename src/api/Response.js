@@ -7,4 +7,3 @@ export class Response {
         this.name = name;
     }
 }
-//# sourceMappingURL=Response.js.map

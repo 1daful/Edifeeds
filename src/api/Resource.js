@@ -108,4 +108,3 @@ export class Resource {
         return respData;
     }
 }
-//# sourceMappingURL=Resource.js.map

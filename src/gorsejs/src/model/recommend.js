@@ -53,4 +53,3 @@ export function getRecommend(axios, { userId, category = "", cursorOptions, writ
         return Promise.reject(new GorseException(response.status, response.data));
     });
 }
-//# sourceMappingURL=recommend.js.map

@@ -80,4 +80,3 @@ export class PaperQuotes {
         return respData;
     }
 }
-//# sourceMappingURL=PaperQuotes.js.map

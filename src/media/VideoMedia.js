@@ -7,4 +7,3 @@ export class VideoMedia {
         this.apis.push(this.youtube);
     }
 }
-//# sourceMappingURL=VideoMedia.js.map

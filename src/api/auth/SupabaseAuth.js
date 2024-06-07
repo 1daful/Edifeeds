@@ -113,4 +113,3 @@ class SupabaseAuth {
     }
 }
 export const auth = SupabaseAuth.Instance;
-//# sourceMappingURL=SupabaseAuth.js.map

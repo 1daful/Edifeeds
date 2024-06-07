@@ -89,4 +89,3 @@ export class GoogleBooks {
         return respData;
     }
 }
-//# sourceMappingURL=GoogleBooks.js.map

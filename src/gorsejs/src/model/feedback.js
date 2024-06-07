@@ -65,4 +65,3 @@ export function upsertFeedbacks(axios, feedbacksList) {
         return Promise.reject(new GorseException(response.status, response.data));
     });
 }
-//# sourceMappingURL=feedback.js.map

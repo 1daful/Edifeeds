@@ -20,4 +20,3 @@ export class Mailer {
         this.client.post(new Zeptomail().getResource("batch_template", user, email));
     }
 }
-//# sourceMappingURL=Mailer.js.map

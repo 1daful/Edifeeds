@@ -74,4 +74,3 @@ export class InternetArchive {
         return respData;
     }
 }
-//# sourceMappingURL=InternetArchive.js.map

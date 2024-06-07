@@ -110,4 +110,3 @@ export class Youtube {
         return respData;
     }
 }
-//# sourceMappingURL=Youtube.js.map

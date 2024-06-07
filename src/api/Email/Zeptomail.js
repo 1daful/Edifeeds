@@ -93,4 +93,3 @@ export class Zeptomail {
     }
     client = new Axiosi();
 }
-//# sourceMappingURL=Zeptomail.js.map

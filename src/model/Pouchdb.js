@@ -117,4 +117,3 @@ export class Pouchdb {
         }
     }
 }
-//# sourceMappingURL=Pouchdb.js.map

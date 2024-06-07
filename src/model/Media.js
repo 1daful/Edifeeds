@@ -20,4 +20,3 @@ export const mediaItems = [{
         icon: '',
         items: []
     }];
-//# sourceMappingURL=Media.js.map

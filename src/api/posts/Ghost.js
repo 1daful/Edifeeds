@@ -94,4 +94,3 @@ export class Ghost {
         return await media;
     }
 }
-//# sourceMappingURL=Ghost.js.map

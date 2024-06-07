@@ -98,4 +98,3 @@ export function getItemNeighbors(axios, { itemId, category = "", cursorOptions }
         return Promise.reject(new GorseException(response.status, response.data));
     });
 }
-//# sourceMappingURL=item.js.map

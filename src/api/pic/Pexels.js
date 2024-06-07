@@ -85,4 +85,3 @@ export class Pexels {
         return image.photos;
     }
 }
-//# sourceMappingURL=Pexels.js.map

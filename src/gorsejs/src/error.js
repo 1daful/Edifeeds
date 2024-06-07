@@ -5,4 +5,3 @@ export class GorseException extends Error {
         this.code = code;
     }
 }
-//# sourceMappingURL=error.js.map

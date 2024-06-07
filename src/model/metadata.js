@@ -18,4 +18,3 @@ export class Metadata {
         return await this.repository.readItems();
     }
 }
-//# sourceMappingURL=metadata.js.map

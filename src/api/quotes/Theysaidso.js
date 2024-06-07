@@ -83,4 +83,3 @@ export class TheySaidSo {
         return respData;
     }
 }
-//# sourceMappingURL=Theysaidso.js.map

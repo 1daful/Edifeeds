@@ -11,4 +11,3 @@ export class MusicMedia {
         this.apis.push(this.deezer);
     }
 }
-//# sourceMappingURL=MusicMedia.js.map

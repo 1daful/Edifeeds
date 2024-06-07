@@ -3,9 +3,9 @@ import SignIn from "../pages/SignIn.vue";
 const routes = [
     {
         path: '/',
-        component: () => import('layouts/MainLayout.vue'),
+        component: () => import('../layouts/MainLayout.vue'),
         children: [
-            { path: '', component: () => import('pages/IndexPage.vue') },
+            { path: '', component: () => import('../pages/IndexPage.vue') },
             {
                 path: '/about',
                 name: 'About',
@@ -73,7 +73,7 @@ const routes = [
             },
             {
                 path: '/:catchAll(.*)*',
-                component: () => import('pages/ErrorNotFound.vue'),
+                component: () => import('../pages/ErrorNotFound.vue'),
             }
         ]
     },
@@ -122,4 +122,3 @@ const routes = [
     }
 ];
 export default routes;
-//# sourceMappingURL=routes.js.map

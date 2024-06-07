@@ -71,4 +71,3 @@ export class SoundCloud {
         return respData;
     }
 }
-//# sourceMappingURL=SoundCloud.js.map

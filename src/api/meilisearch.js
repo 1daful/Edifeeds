@@ -15,4 +15,3 @@ export class Meilisearch {
             .then((res) => console.log("meilisearch", res));
     }
 }
-//# sourceMappingURL=meilisearch.js.map

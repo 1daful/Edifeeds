@@ -8,4 +8,3 @@ export class Search {
         return await this.client.search(type, keyword);
     }
 }
-//# sourceMappingURL=Search.js.map

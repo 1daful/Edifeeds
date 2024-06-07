@@ -22,4 +22,3 @@ export class Algolia {
         return await index.search(keywords);
     }
 }
-//# sourceMappingURL=Algolia.js.map

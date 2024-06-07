@@ -80,4 +80,3 @@ export class Deezer {
         return respData;
     }
 }
-//# sourceMappingURL=Deezer.js.map

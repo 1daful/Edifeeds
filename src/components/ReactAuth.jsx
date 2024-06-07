@@ -28,4 +28,3 @@ class SuperTokensReactComponent extends React.Component {
     }
 }
 export default SuperTokensReactComponent;
-//# sourceMappingURL=ReactAuth.jsx.map

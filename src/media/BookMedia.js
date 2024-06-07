@@ -7,4 +7,3 @@ export class BookMedia {
         this.apis.push(this.googleBooks);
     }
 }
-//# sourceMappingURL=BookMedia.js.map

@@ -44,4 +44,3 @@ export class Repository {
         this.db.deleteItem(docId, this.collName);
     }
 }
-//# sourceMappingURL=Repository.js.map

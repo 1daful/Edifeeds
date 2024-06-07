@@ -23,4 +23,3 @@ export class EAuth {
         return await this.auth.isAuthenticated();
     }
 }
-//# sourceMappingURL=Auth.js.map

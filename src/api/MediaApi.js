@@ -26,4 +26,3 @@ export class MediaApi {
         return response;
     }
 }
-//# sourceMappingURL=MediaApi.js.map

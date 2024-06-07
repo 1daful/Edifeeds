@@ -33,4 +33,3 @@ export class ImageMedia {
         }
     }
 }
-//# sourceMappingURL=ImageMedia.js.map

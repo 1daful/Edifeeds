@@ -9,4 +9,3 @@ export class Request {
     params;
     data;
 }
-//# sourceMappingURL=Request.js.map

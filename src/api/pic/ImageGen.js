@@ -71,4 +71,3 @@ export class Unsplash {
         return respData;
     }
 }
-//# sourceMappingURL=ImageGen.js.map

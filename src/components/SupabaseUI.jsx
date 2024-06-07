@@ -20,4 +20,3 @@ export default function ReactAuth() {
       </Container>
     </Auth.UserContextProvider>);
 }
-//# sourceMappingURL=SupabaseUI.jsx.map

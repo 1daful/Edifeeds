@@ -7,9 +7,9 @@ import SignIn from "../pages/SignIn.vue";
 const routes: RouteRecordRaw[] = [
   {
     path: '/',
-    component: () => import('layouts/MainLayout.vue'),
+    component: () => import('../layouts/MainLayout.vue'),
     children: [
-      { path: '', component: () => import('pages/IndexPage.vue') },
+      { path: '', component: () => import('../pages/IndexPage.vue') },
       {
         path: '/about',
         name: 'About',
@@ -97,7 +97,7 @@ const routes: RouteRecordRaw[] = [
       },
       {
         path: '/:catchAll(.*)*',
-        component: () => import('pages/ErrorNotFound.vue'),
+        component: () => import('../pages/ErrorNotFound.vue'),
       }
     ]
   },

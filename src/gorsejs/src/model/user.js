@@ -76,4 +76,3 @@ export function getUserNeighbors(axios, { userId, cursorOptions }) {
         return Promise.reject(new GorseException(response.status, response.data));
     });
 }
-//# sourceMappingURL=user.js.map
