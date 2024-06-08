@@ -48,9 +48,9 @@
             <!-- share -->
             <div>
                 <h5>Share with friends</h5>
-                <Facebook :url="url" :description="media.description"></Facebook>
+                <!--Facebook :url="url" :description="media.description"></Facebook>
                 <Twitter :url="url" :description="media.description"></Twitter>
-                <Pinterest :url="url" :description="media.description"></Pinterest>
+                <Pinterest :url="url" :description="media.description"></Pinterest-->
             </div>
         </div>
         <div class="col-sm-4">
@@ -86,9 +86,9 @@ import MediaComponent from "../components/MediaComponent.vue"
 import { defineComponent } from "vue";
 import { IRepository } from "../model/IRepository";
 //import { auth } from '../api/auth/SupabaseAuth'
-import Facebook from 'vue-share-buttons/src/components/FacebookButton.vue';
-import Twitter from 'vue-share-buttons/src/components/TwitterButton.vue';
-import Pinterest from 'vue-share-buttons/src/components/PinterestButton.vue';
+//import Facebook from 'vue-share-buttons/src/components/FacebookButton.vue';
+//import Twitter from 'vue-share-buttons/src/components/TwitterButton.vue';
+//import Pinterest from 'vue-share-buttons/src/components/PinterestButton.vue';
 import { Recommender } from "../api/Recommender";
 import { MediaType } from "../Types";
 import QOD from "../components/QOD.vue";
@@ -107,6 +107,7 @@ export default defineComponent({
     data() {
         return {
             url,
+            mediaType: this.$route.query.type,
             media,
             //auth,
             pos: "sidebar",
@@ -163,8 +164,7 @@ export default defineComponent({
         },*/
         addToCollection() {
             if (this.user) {
-            const type = this.$route.query.type
-          const coll = type + "Collection"
+          const coll = this.mediaType + "Collection"
                 this.repository.addItems(coll, [ this.media ]);
                 //this.collIcon = 'library_add_check',
                 this.isDisabled = true
@@ -186,19 +186,18 @@ export default defineComponent({
         }*/
     },
     async mounted() {
-        let type = this.$route.query.mediaType as string
         this.url = "https://edifeeds.com" + this.$route.path
         console.log("url ", this.url)
         this.repository = new Repository("quotes")
         const id = this.$route.params.id as string
         let media
-        if (type ==="posts") {
+        if (this.mediaType ==="posts") {
             const api = new Ghost()
             media = await api.getPost(id)
         this.media = media
         }
         else{
-            media = await this.repository.readItem(type, "id", id)
+            media = await this.repository.readItem(this.mediaType, "id", id)
         this.media = media[0]
         }
         this.loading = false
